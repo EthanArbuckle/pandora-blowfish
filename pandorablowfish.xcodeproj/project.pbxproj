@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FE3CCCA209458D500E75A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3CCC9209458D500E75A0F /* main.m */; };
+		5FE3CCD9209486D300E75A0F /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3CCD8209486D300E75A0F /* blowfish.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5FE3CCC6209458D500E75A0F /* pandorablowfish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pandorablowfish; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE3CCC9209458D500E75A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FE3CCD7209486D300E75A0F /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		5FE3CCD8209486D300E75A0F /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5FE3CCC9209458D500E75A0F /* main.m */,
+				5FE3CCD7209486D300E75A0F /* blowfish.h */,
+				5FE3CCD8209486D300E75A0F /* blowfish.c */,
 			);
 			path = pandorablowfish;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE3CCCA209458D500E75A0F /* main.m in Sources */,
+				5FE3CCD9209486D300E75A0F /* blowfish.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
